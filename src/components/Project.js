@@ -10,8 +10,9 @@ function Project(props) {
                     <img src={props.image} class="card-img-top" alt="project image"/>
                     <div class="card-body">
                     <h5 class="card-title">{props.title}</h5>
+                    <a href={props.github} class="btn btn-danger">Github Repository</a>
                     </div>
-                Visit</a>
+                </a>
             </div>
         </div>
         <br/>

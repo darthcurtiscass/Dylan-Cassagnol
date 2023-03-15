@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../images/Number-three.jpg"
 import '../scss/custom.scss'
 
 function Header(props) {
@@ -11,7 +12,10 @@ function Header(props) {
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-            <img src="../images/Rhythm.png" alt="Bootstrap" width="30" height="24"/>
+            <img src={logo} alt="Bootstrap" width="30" height="30"/>
+            <div class = "navbar-brand">
+            <a onClick={()=>{props.setCurrentPage('About')}} class="nav-link active" aria-current="page" href="#">Dylan Cassagnol</a>
+            </div>
             <ul class="navbar-nav">
                 <li class="nav-item">
                 <a onClick={()=>{props.setCurrentPage('About')}} class="nav-link active" aria-current="page" href="#">About</a>
@@ -22,7 +26,11 @@ function Header(props) {
                 <li class="nav-item">
                 <a onClick={()=>{props.setCurrentPage('Contact')}} class="nav-link" href="#">Contact</a>
                 </li>
+                <li class="nav-item">
+                <a onClick={()=>{props.setCurrentPage('Resume')}} class="nav-link" href="#">Resume</a>
+                </li>
             </ul>
+            
             </div>
         </div>
     </nav>

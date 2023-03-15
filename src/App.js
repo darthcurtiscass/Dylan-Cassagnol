@@ -5,6 +5,7 @@ import "./App.css";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Resume from "./pages/Resume"
 import { useState } from "react";
 import "./scss/custom.scss"
 
@@ -22,6 +23,9 @@ function App() {
     }
     if(currentPage === "Contact") {
       return <Contact/>
+    }
+    if(currentPage === "Resume") {
+      return <Resume />
     }
   }
   return (

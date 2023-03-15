@@ -4,6 +4,8 @@ import dndImg from "../images/dnd-ss.png"
 import recipeImg from "../images/Recipesy.png"
 import pgImg from "../images/pg.png"
 import horiseonImg from "../images/horiseon.png"
+import quizImg from "../images/quiz-ss.png"
+import noteImg from "../images/note.png"
 // import recipeImg from ""
 
 function Projects(props) {
@@ -28,13 +30,24 @@ function Projects(props) {
           github: "https://github.com/darthcurtiscass/DCC-password-generator"
         },
         {
-            title: "Horiseon Refactoring",
-            link: "https://darthcurtiscass.github.io/Horiseon-main-page/",
-            image: horiseonImg,
-            github: "https://github.com/darthcurtiscass/Horiseon-main-page",
-
+          title: "Note Taker",
+          link: "https://dcc-notetaker.herokuapp.com/",
+          image: noteImg,
+          github: "https://github.com/darthcurtiscass/dcc-notetaker",
         },
+        {
+          title: "Beginner Javascript Quiz",
+          link: "https://darthcurtiscass.github.io/dcc-jsquiz/",
+          image: quizImg,
+          github: "https://github.com/darthcurtiscass/dcc-jsquiz",
+        },
+        {
+          title: "Horiseon Refactoring",
+          link: "https://darthcurtiscass.github.io/Horiseon-main-page/",
+          image: horiseonImg,
+          github: "https://github.com/darthcurtiscass/Horiseon-main-page",
 
+      },
     ]
 
   return (
