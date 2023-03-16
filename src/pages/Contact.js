@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import img from "../images/Number-three.jpg"
+import img from "../images/Rhythm.png"
 
 function Contact(props) {
   const [firstName, setFirstName] = useState('');
@@ -32,14 +32,9 @@ function Contact(props) {
   return (
     <div className="container text-center">
       <div className="row row-col mx-auto">
-        <div style={{ 
-            backgroundImage: `url(${img})`, 
-            backgroundSize: 'cover', 
-            backgroundPosition: 'center center', 
-            backgroundRepeat: 'no-repeat' 
-        }}>
+        <div className="container-md">
           <br/><br/><br/><br/><br/>
-          <div className="container-md">
+          <div className="w-75 mx-auto">
             <form onSubmit={handleSubmit}>
               <div className="input-group">
                 <span className="input-group-text">First and last name</span>
