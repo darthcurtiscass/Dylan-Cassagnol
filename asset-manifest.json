@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Dylan-Cassagnol/static/css/main.c3e409a3.css",
-    "main.js": "/Dylan-Cassagnol/static/js/main.e6ecd503.js",
+    "main.js": "/Dylan-Cassagnol/static/js/main.8963b7fb.js",
     "static/js/787.7fe49a09.chunk.js": "/Dylan-Cassagnol/static/js/787.7fe49a09.chunk.js",
     "static/media/horiseon.png": "/Dylan-Cassagnol/static/media/horiseon.920c3a37bd59d9adc695.png",
     "static/media/Number-three.jpg": "/Dylan-Cassagnol/static/media/Number-three.50b1afc487da5dc31cba.jpg",
@@ -10,15 +10,16 @@
     "static/media/pg.png": "/Dylan-Cassagnol/static/media/pg.2e2436e3bce5a164f2fc.png",
     "static/media/note.png": "/Dylan-Cassagnol/static/media/note.2122d099898ed3ca9406.png",
     "static/media/quiz-ss.png": "/Dylan-Cassagnol/static/media/quiz-ss.2e2e5c9ee694342c341c.png",
+    "static/media/Rhythm.png": "/Dylan-Cassagnol/static/media/Rhythm.c12ca63aadf5290dea80.png",
     "static/media/dnd-ss.png": "/Dylan-Cassagnol/static/media/dnd-ss.f97d2911ab685db3cdca.png",
     "static/media/dc-resume.pdf": "/Dylan-Cassagnol/static/media/dc-resume.b02420d54a3280e29441.pdf",
     "index.html": "/Dylan-Cassagnol/index.html",
     "main.c3e409a3.css.map": "/Dylan-Cassagnol/static/css/main.c3e409a3.css.map",
-    "main.e6ecd503.js.map": "/Dylan-Cassagnol/static/js/main.e6ecd503.js.map",
+    "main.8963b7fb.js.map": "/Dylan-Cassagnol/static/js/main.8963b7fb.js.map",
     "787.7fe49a09.chunk.js.map": "/Dylan-Cassagnol/static/js/787.7fe49a09.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c3e409a3.css",
-    "static/js/main.e6ecd503.js"
+    "static/js/main.8963b7fb.js"
   ]
 }
