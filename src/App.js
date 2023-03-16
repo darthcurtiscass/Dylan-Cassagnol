@@ -15,7 +15,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState('About')
   function renderPage(){
     if(currentPage === "About") {
-      return <About/>
+      return <About setCurrentPage= {setCurrentPage}/>
     }
     if(currentPage === "Projects") {
       return <Projects/>

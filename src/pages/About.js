@@ -28,7 +28,7 @@ function About(props) {
                                 Full-stack Coding Bootcamp. He applies knowledge gained, from over six
                                 years of expeirence in the film and art industries, to all of his
                                 creative endeavors.</p>
-            <a href="#" class="btn btn-dark">See his work</a>
+            <a onClick={()=>{props.setCurrentPage('Projects')}} href="#" class="btn btn-dark">See his work</a>
           </div>
         </div>
       </div>
