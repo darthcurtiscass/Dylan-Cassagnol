@@ -31,7 +31,7 @@ function App() {
     <div className="App bg-dark">
       <Header setCurrentPage = {setCurrentPage}/>
       <main>
-        <div class="flex">
+        <div className="flex">
         {renderPage()}
         </div>
         <div>

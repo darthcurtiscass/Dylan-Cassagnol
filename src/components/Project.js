@@ -2,15 +2,15 @@ import React from 'react';
 
 function Project(props) {
     return (
-    <div class="container text-center">
-        <div class="row row-col w-50 mx-auto">
-            <div class="row card bg-dark">
+    <div className="container text-center">
+        <div className="row row-col w-50 mx-auto">
+            <div className="row card bg-dark">
             
-                <a href={props.link} class="btn btn-dark">
-                    <img src={props.image} class="card-img-top" alt="project image"/>
-                    <div class="card-body">
-                    <h5 class="card-title">{props.title}</h5>
-                    <a href={props.github} class="btn btn-danger">Github Repository</a>
+                <a href={props.link} className="btn btn-dark">
+                    <img src={props.image} className="card-img-top" alt="project image"/>
+                    <div className="card-body">
+                    <h5 className="card-title">{props.title}</h5>
+                    <a href={props.github} className="btn btn-danger">Github Repository</a>
                     </div>
                 </a>
             </div>

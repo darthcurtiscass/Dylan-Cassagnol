@@ -53,7 +53,7 @@ function Projects(props) {
   return (
     <section >
       <h2>My Work</h2>
-      <div class="work">
+      <div className="work">
         {
             projectsArr.map(project => {
                 return (
