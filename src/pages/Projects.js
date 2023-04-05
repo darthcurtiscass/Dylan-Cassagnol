@@ -6,6 +6,7 @@ import pgImg from "../images/pg.png"
 import horiseonImg from "../images/horiseon.png"
 import quizImg from "../images/quiz-ss.png"
 import noteImg from "../images/note.png"
+import vgtImg from "../images/VGT.png"
 // import recipeImg from ""
 
 function Projects(props) {
@@ -48,6 +49,12 @@ function Projects(props) {
           github: "https://github.com/darthcurtiscass/Horiseon-main-page",
 
       },
+      {
+        title: "Video Game Trivia",
+        link: "https://video-game-trivia.herokuapp.com/",
+        image: vgtImg,
+        github: "https://github.com/darthcurtiscass/VGT"
+      }
     ]
 
   return (
