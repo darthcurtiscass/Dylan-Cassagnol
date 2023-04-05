@@ -7,10 +7,15 @@ import horiseonImg from "../images/horiseon.png"
 import quizImg from "../images/quiz-ss.png"
 import noteImg from "../images/note.png"
 import vgtImg from "../images/VGT.png"
-// import recipeImg from ""
 
 function Projects(props) {
     const projectsArr = [
+        {
+          title: "Video Game Trivia",
+          link: "https://video-game-trivia.herokuapp.com/",
+          image: vgtImg,
+          github: "https://github.com/darthcurtiscass/VGT"
+        },
         {
             title: "Dungeons & Dragons Player Utility",
             link: "https://boiling-ridge-38547.herokuapp.com/homepage",
@@ -47,14 +52,8 @@ function Projects(props) {
           link: "https://darthcurtiscass.github.io/Horiseon-main-page/",
           image: horiseonImg,
           github: "https://github.com/darthcurtiscass/Horiseon-main-page",
-
-      },
-      {
-        title: "Video Game Trivia",
-        link: "https://video-game-trivia.herokuapp.com/",
-        image: vgtImg,
-        github: "https://github.com/darthcurtiscass/VGT"
       }
+
     ]
 
   return (
